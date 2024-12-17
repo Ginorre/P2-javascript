@@ -1,6 +1,6 @@
 let position = 0;
 const div = document.querySelector('#block')
-let vertical = 0
+let vertical = 0    
 
 
 const colors = ['red', 'blue', 'green', 'yellow', 'purple'];
