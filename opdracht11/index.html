@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="tamagotchi-container">
+        <h1>Tamagotchi</h1>
+        <section class="status">
+            <p id="hunger">Honger: 100</p>
+            <div class="status-bar">
+                <div id="hungerBar" class="hunger-bar" style="width: 100%;"></div>
+            </div>
+            <p id="energy">Energie: 100</p>
+            <div class="status-bar">
+                <div id="energyBar" class="energy-bar" style="width: 100%;"></div>
+            </div>
+            <p id="happiness">Geluk: 100</p>
+            <div class="status-bar">
+                <div id="happinessBar" class="happiness-bar" style="width: 100%;"></div>
+            </div>
+            <p id="statusMessage"></p>
+        </section>
+        <div class="button-container">
+            <button id="feed">Voeden</button>
+            <button id="sleep">Slapen</button>
+            <button id="play">Spelen</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
